@@ -1,15 +1,19 @@
-# Title of Project: [PROJECT_TITLE_HERE]
+# Title of Project: [SECURITY ASSISTANCE FOR VISUALLY CHALLENGED]
 
 ## Team Members:
-1. [TEAM_MEMBER_1_NAME]
-2. [TEAM_MEMBER_2_NAME]
-3. [TEAM_MEMBER_3_NAME]
-4. [TEAM_MEMBER_4_NAME]
+1. [Atharva Namdeo]
+2. [Devesh Kumar]
+3. [Parth Sharma]
 
 ## Steps for Execution:
-1. [STEP 1]
-2. [STEP 2]
-   (Add more steps as needed)
+Step 1-Detect Harmful Object in Hand
+Use YOLO and OpenCV to identify harmful objects (e.g., knives) and confirm they're being held.
+
+Step 2-Recognize Face
+Apply DeepFace to check if the person holding the object is a known family member.
+
+Step 3-Trigger Alarm if Needed
+If the person is not recognized, trigger an alarm (sound).
 
 ## Checklist:
 1. Final Project Report
